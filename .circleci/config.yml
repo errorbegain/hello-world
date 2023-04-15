@@ -11,7 +11,7 @@ jobs:
       - run: echo "A first hello"
       - run: sleep 25
   two:
-    docker:
+     docker:
       - image: cimg/ruby:3.0.2
         auth:
           username: mydockerhub-user
